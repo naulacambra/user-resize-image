@@ -1,0 +1,16 @@
+{
+  "name": "user-resize-image",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "author": "Arnau Lacambra Torres",
+  "devDependencies": {
+    "css-loader": "^3.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/naulacambra/user-resize-image.git",
+  "license": "MIT"
+}

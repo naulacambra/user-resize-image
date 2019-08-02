@@ -1,0 +1,15 @@
+.ur-wrpr {
+    position: relative;
+    display: inline-block;
+}
+
+.ur-hndlr {
+    position: absolute;
+    right: -5px;
+    bottom: 0px;
+    background: white;
+    border: 1px solid black;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}

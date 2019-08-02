@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hello, world</title>
+    <meta name="viewport" content="user-scalable=1.0,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/pell.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .content {
+            box-sizing: border-box;
+            margin: 0 auto;
+            height: 100vh;
+            padding: 20px;
+        }
+        #html-output {
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div id="editor" class="pell"></div>
+    </div>
+
+
+    <!-- <div contenteditable="true">
+        <img src="./assets/owl.jpg" />
+    </div> -->
+
+</body>
+
+<script src="./assets/pell.min.js"></script>
+<script>
+    var editor = window.pell.init({
+        element: document.getElementById('editor'),
+        defaultParagraphSeparator: 'p',
+    })
+</script>
+<script src="./dist/main.js"></script>
+
+</html>
